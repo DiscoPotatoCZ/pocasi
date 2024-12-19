@@ -31,4 +31,9 @@ class Main extends BaseController
         $data["bundesland"] = $this->bundesland->where('id', $bundesland)->findAll();
         echo view("zeme", $data);
     }
+    public function mereni($bundesland){
+        $data["station"] = $this->station->where('bundesland', $bundesland)->findAll();
+        $data["bundesland"] = $this->bundesland->where('id', $bundesland)->findAll();
+        echo view("mereni", $data);
+    }
 }

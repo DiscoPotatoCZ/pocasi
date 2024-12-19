@@ -23,7 +23,7 @@ foreach ($bundesland as $row) {
         <?php
         foreach($station as $row){
             echo"<div class=\"card col-lg-4\">";
-            echo"<div class=\"cad-body\">".$row["place"]."<br>"." Zeměpisná šířka: ".$row["geo_latitude"]."<br>"." Zeměpisná délka: ".$row["geo_longtitude"]."<br>"." Nadmořská výška: ".$row["height"]."</div>";
+            echo"<div class=\"cad-body\">".anchor("mereni/" .$row["S_ID"],$row["place"])."<br>"." Zeměpisná šířka: ".$row["geo_latitude"]."<br>"." Zeměpisná délka: ".$row["geo_longtitude"]."<br>"." Nadmořská výška: ".$row["height"]."</div>";
             echo"</div>";
         }
 
