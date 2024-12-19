@@ -4,10 +4,32 @@
 <body>
 
 </body>
+
 <?php
-$navbar = ["class" => "nav-link"];
+
+
+    ?>
+
+    <div class="container">
+    <div class="row">
+    <h1>Přehled meteorologických stanic ve spolkové zemi 
+<?php
+foreach ($bundesland as $row) {
+    echo $row["name"];
+}
 ?>
-<!-- <?= anchor("pokus", "Klikni sem", $navbar); ?> -->
+</h1>
+
+        <?php
+        foreach($station as $row){
+            echo"<div class=\"card col-lg-4\">";
+            echo"<div class=\"cad-body\">".$row["place"]."<br>"." Zeměpisná šířka: ".$row["geo_latitude"]."<br>"." Zeměpisná délka: ".$row["geo_longtitude"]."<br>"." Nadmořská výška: ".$row["height"]."</div>";
+            echo"</div>";
+        }
+
+?>
+</div>
+</div>
 
 
 <?=$this ->endSection(); ?>
