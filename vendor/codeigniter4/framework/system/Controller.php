@@ -35,7 +35,7 @@ class Controller
      *
      * @var list<string>
      */
-    protected $helpers = [];
+    protected $helpers = ["html"];
 
     /**
      * Instance of the main Request object.
