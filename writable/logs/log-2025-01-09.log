@@ -1,0 +1,97 @@
+CRITICAL - 2025-01-09 06:28:51 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: mereni/4271]
+in APPPATH\Views\mereni.php on line 22.
+ 1 APPPATH\Views\mereni.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 5 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('4271')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 06:31:59 --> Error: Cannot use [] for reading
+[Method: GET, Route: mereni/4271]
+in APPPATH\Views\mereni.php on line 23.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 4 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('4271')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 06:32:40 --> ErrorException: Undefined array key ""
+[Method: GET, Route: mereni/4271]
+in APPPATH\Views\mereni.php on line 23.
+ 1 APPPATH\Views\mereni.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 5 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('4271')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 06:33:37 --> ParseError: syntax error, unexpected token ",", expecting end of file
+[Method: GET, Route: mereni/4271]
+in APPPATH\Views\mereni.php on line 13.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 3 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('4271')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 06:41:15 --> ErrorException: Undefined array key "sun"
+[Method: GET, Route: mereni/7341]
+in APPPATH\Views\mereni.php on line 24.
+ 1 APPPATH\Views\mereni.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "sun"', 'C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 5 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('7341')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 06:53:48 --> ErrorException: Undefined variable $skibidiimg
+[Method: GET, Route: mereni/4931]
+in APPPATH\Views\layout\navbar.php on line 43.
+ 1 APPPATH\Views\layout\navbar.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skibidiimg', 'C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\layout\\navbar.php', 43)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\layout\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(487): CodeIgniter\View\View->render('layout/navbar', null, true)
+ 5 APPPATH\Views\layout\sablona.php(10): CodeIgniter\View\View->include('layout/navbar')
+ 6 SYSTEMPATH\View\View.php(234): include('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\layout\\sablona.php')
+ 7 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(250): CodeIgniter\View\View->render('layout/sablona', [], true)
+ 9 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+10 APPPATH\Controllers\Main.php(41): view('mereni', [...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('4931')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-09 07:22:45 --> ParseError: syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: mereni/1346]
+in APPPATH\Controllers\Main.php on line 40.
+ 1 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\vendor\\composer/../../app/Controllers/Main.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Main')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Main', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

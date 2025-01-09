@@ -13,6 +13,7 @@ class Main extends BaseController
     var $bundesland;
     var $station;
     var $data;
+    
     public function __construct()
     {
         $this->bundesland = new Bundesland();
@@ -37,7 +38,7 @@ class Main extends BaseController
     public function mereni($bundesland){
         $data["station"] = $this->station->where('bundesland', $bundesland)->findAll();
         $data["bundesland"] = $this->bundesland->where('id', $bundesland)->findAll();
-        $data["data"] = $this->data->where("Stations_ID", $bundesland)->findAll();
+        $data["data"] = $this->data->where("Stations_ID", $bundesland)->paginate(25);
         echo view("mereni", $data);
     }
 }

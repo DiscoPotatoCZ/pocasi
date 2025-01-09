@@ -3,6 +3,19 @@
 <body>
   <?php
   $navbar = ["class" => "nav-link"];
+  $img = array(
+    "src" => "obrazky/6915875_shrek-6.jpg",
+    "alt" => "skibidi",
+    "class" => "",
+    "style" => "width: 2%; height: 3%;"
+);
+
+$skibidiImg = array(
+  "src" => "obrazky/300px-Skibidi-Toilet-Wiki.jpg",
+  "alt" => "skibidi",
+  "class" => "",
+  "style" => "width: 4%; height: 4%;"
+);
   ?>
   <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
     <div class="container-fluid">
@@ -26,6 +39,8 @@
           <li class="nav-item">
             <?= anchor("karty", "Karty", $navbar); ?>
           </li>
+          <?php echo img($img); ?>
+          <?php echo img($skibidiImg); ?>
         </ul>
       </div>
 
