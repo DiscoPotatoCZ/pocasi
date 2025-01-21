@@ -50,6 +50,10 @@ $template = array(
 echo $table->generate();
 
 ?>
+
+</div>
+<div class="pagination">
+    <?= $pager->links() ?>
 </div>
 </div>
 </div>

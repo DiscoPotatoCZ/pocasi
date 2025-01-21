@@ -10,3 +10,5 @@ $routes->get('tabulka', 'Main::tabulka');
 $routes->get('station/(:num)', 'Main::station/$1');
 $routes->get('zeme/(:num)', 'Main::zeme/$1');
 $routes->get('mereni/(:num)', 'Main::mereni/$1');
+$routes->get('info/(:num)', 'Main::info/$1');
+

@@ -20,12 +20,32 @@ foreach ($bundesland as $row) {
 ?>
 </h1>
 
-        <?php
-        foreach($station as $row){
-            echo"<div class=\"card col-lg-4\">";
-            echo"<div class=\"cad-body\">".anchor("mereni/" .$row["S_ID"],$row["place"])."<br>"." Zeměpisná šířka: ".$row["geo_latitude"]."<br>"." Zeměpisná délka: ".$row["geo_longtitude"]."<br>"." Nadmořská výška: ".$row["height"]."</div>";
-            echo"</div>";
-        }
+<?php
+$skibidiVlajka = [];
+foreach ($bundesland as $row) {
+    $skibidiVlajka[] = [
+        'src' => base_url("obrazky/" . $row['vlajka']),
+        'alt' => "vlajka",
+        'class' => 'img-fluid'
+    ];
+}
+
+foreach ($station as $row) {
+    echo "<div class=\"card col-lg-4\">";
+    echo "<div class=\"card-body\">";
+
+    foreach ($skibidiVlajka as $vlajka) {
+        echo img($vlajka); 
+    }
+
+    echo anchor("mereni/" . $row["S_ID"], $row["place"]) . "<br>";
+    echo "Zeměpisná šířka: " . $row["geo_latitude"] . "<br>";
+    echo "Zeměpisná délka: " . $row["geo_longtitude"] . "<br>";
+    echo "Nadmořská výška: " . $row["height"];
+    echo "</div>";
+    echo "</div>";
+}
+
 
 ?>
 </div>

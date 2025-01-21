@@ -16,7 +16,7 @@ $navbar = ["class" => "nav-link"];
 $table = new \CodeIgniter\View\Table();
 $table->setHeading('Jméno');
 foreach($bundesland as $Skibidi_ligma_sigma){
-    $table->addRow(anchor("zeme/".$Skibidi_ligma_sigma["id"],$Skibidi_ligma_sigma["name"]));
+    $table->addRow(anchor("zeme/".$Skibidi_ligma_sigma["id"],$Skibidi_ligma_sigma["name"]), anchor("info/".$Skibidi_ligma_sigma["id"],"Info"));
     //anchor("hrac/".$Skibidi_ligma_sigma["id"],$Skibidi_ligma_sigma["name"]);
 }
 $template = array(

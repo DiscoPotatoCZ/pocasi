@@ -1,0 +1,262 @@
+CRITICAL - 2025-01-21 18:54:06 --> TypeError: Unsupported operand types: string + string
+[Method: GET, Route: tabulka]
+in APPPATH\Views\tabulka.php on line 19.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('tabulka', [], true)
+ 4 APPPATH\Controllers\Main.php(31): view('tabulka', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->tabulka()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 18:54:51 --> ErrorException: Undefined variable $zeme
+[Method: GET, Route: info/1]
+in APPPATH\Views\info.php on line 4.
+ 1 APPPATH\Views\info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zeme', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 18:54:54 --> ErrorException: Undefined variable $zeme
+[Method: GET, Route: info/2]
+in APPPATH\Views\info.php on line 4.
+ 1 APPPATH\Views\info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zeme', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 18:54:58 --> ErrorException: Undefined variable $zeme
+[Method: GET, Route: info/13]
+in APPPATH\Views\info.php on line 4.
+ 1 APPPATH\Views\info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zeme', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('13')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 18:57:59 --> ParseError: syntax error, unexpected token "foreach"
+[Method: GET, Route: info/1]
+in APPPATH\Views\info.php on line 7.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 3 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 18:59:58 --> ErrorException: Undefined variable $zeme
+[Method: GET, Route: info/1]
+in APPPATH\Views\info.php on line 4.
+ 1 APPPATH\Views\info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $zeme', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:00:10 --> ErrorException: Attempt to read property "vlajka" on array
+[Method: GET, Route: info/1]
+in APPPATH\Views\info.php on line 7.
+ 1 APPPATH\Views\info.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "vlajka" on array', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:01:22 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: info/1]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\info.php(15): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:01:29 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: info/1]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\info.php(15): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:01:30 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: info/1]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\info.php(15): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:01:30 --> RuntimeException: View themes, no current section.
+[Method: GET, Route: info/1]
+in SYSTEMPATH\View\View.php on line 442.
+ 1 APPPATH\Views\info.php(15): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 19:05:25 --> ErrorException: Undefined variable $skibidi
+[Method: GET, Route: info/3]
+in APPPATH\Views\info.php on line 8.
+ 1 APPPATH\Views\info.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $skibidi', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php', 8)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\info.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('info', [], true)
+ 5 APPPATH\Controllers\Main.php(48): view('info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->info('3')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:01:18 --> ErrorException: Array to string conversion
+[Method: GET, Route: zeme/3]
+in SYSTEMPATH\Helpers\html_helper.php on line 127.
+ 1 SYSTEMPATH\Helpers\html_helper.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\vendor\\codeigniter4\\framework\\system\\Helpers\\html_helper.php', 127)
+ 2 APPPATH\Views\zeme.php(34): img([...])
+ 3 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\zeme.php')
+ 4 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zeme', [], true)
+ 6 APPPATH\Controllers\Main.php(36): view('zeme', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('3')
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:05:14 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: zeme/1]
+in APPPATH\Views\zeme.php on line 51.
+ 1 APPPATH\Views\zeme.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\zeme.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\zeme.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('zeme', [], true)
+ 5 APPPATH\Controllers\Main.php(36): view('zeme', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->zeme('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:33:09 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: mereni/3761]
+in APPPATH\Controllers\Main.php on line 42.
+ 1 APPPATH\Controllers\Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Controllers\\Main.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:35:34 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: mereni/3761]
+in APPPATH\Controllers\Main.php on line 42.
+ 1 APPPATH\Controllers\Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Controllers\\Main.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:38:45 --> ErrorException: Undefined array key "pager"
+[Method: GET, Route: mereni/3761]
+in APPPATH\Controllers\Main.php on line 42.
+ 1 APPPATH\Controllers\Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pager"', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Controllers\\Main.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:40:05 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: mereni/3761]
+in APPPATH\Controllers\Main.php on line 42.
+ 1 APPPATH\Controllers\Main.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Controllers\\Main.php', 42)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:41:00 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: mereni/3761]
+in APPPATH\Views\mereni.php on line 56.
+ 1 APPPATH\Views\mereni.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 5 APPPATH\Controllers\Main.php(43): view('mereni', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-21 20:41:10 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: mereni/3761]
+in APPPATH\Views\mereni.php on line 56.
+ 1 APPPATH\Views\mereni.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php', 56)
+ 2 SYSTEMPATH\View\View.php(234): include('D:\\laragon\\www\\dvorak\\projektPocasi\\pocasi\\app\\Views\\mereni.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mereni', [], true)
+ 5 APPPATH\Controllers\Main.php(43): view('mereni', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->mereni('3761')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

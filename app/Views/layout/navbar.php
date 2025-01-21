@@ -30,14 +30,8 @@ $skibidiImg = array(
               <span class="visually-hidden">(current)</span>
             </a>
           </li>
-          <li>
-            <?= anchor("carousel", "Carousel", $navbar); ?> 
-          </li>
           <li class="nav-item">
-            <?= anchor("tabulka", "Tabulka", $navbar); ?>
-          </li>
-          <li class="nav-item">
-            <?= anchor("karty", "Karty", $navbar); ?>
+            <?= anchor("tabulka", "Spolkové země", $navbar); ?>
           </li>
           <?php echo img($img); ?>
           <?php echo img($skibidiImg); ?>

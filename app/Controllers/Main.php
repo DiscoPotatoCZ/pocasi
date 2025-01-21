@@ -36,9 +36,16 @@ class Main extends BaseController
         echo view("zeme", $data);
     }
     public function mereni($bundesland){
-        $data["station"] = $this->station->where('bundesland', $bundesland)->findAll();
-        $data["bundesland"] = $this->bundesland->where('id', $bundesland)->findAll();
+        $data["station"] = $this->station->where('bundesland', $bundesland)->paginate(25);
+        $data["bundesland"] = $this->bundesland->where('id', $bundesland)->paginate(25);
         $data["data"] = $this->data->where("Stations_ID", $bundesland)->paginate(25);
+        $data["pager"] = $this->station->pager; 
         echo view("mereni", $data);
+    }
+    public function info($bundesland)
+    {
+        $data["bundesland"] = $this->bundesland->where('id', $bundesland)->findAll();
+
+        echo view("info", $data);
     }
 }
